@@ -11,7 +11,7 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     
-    <link rel="preload" href="/docs/assets/css/0.styles.002ecb45.css" as="style"><link rel="preload" href="/docs/assets/js/app.d3e72ca2.js" as="script"><link rel="preload" href="/docs/assets/js/2.6be7d115.js" as="script"><link rel="preload" href="/docs/assets/js/30.a9d39353.js" as="script"><link rel="prefetch" href="/docs/assets/js/10.762c0764.js"><link rel="prefetch" href="/docs/assets/js/11.9342944a.js"><link rel="prefetch" href="/docs/assets/js/12.cc695b0c.js"><link rel="prefetch" href="/docs/assets/js/13.9bc847f1.js"><link rel="prefetch" href="/docs/assets/js/14.5d154729.js"><link rel="prefetch" href="/docs/assets/js/15.ce445ddf.js"><link rel="prefetch" href="/docs/assets/js/16.2c65212c.js"><link rel="prefetch" href="/docs/assets/js/17.6fbcb8a4.js"><link rel="prefetch" href="/docs/assets/js/18.6930023a.js"><link rel="prefetch" href="/docs/assets/js/19.71474e4b.js"><link rel="prefetch" href="/docs/assets/js/20.ca82d6c3.js"><link rel="prefetch" href="/docs/assets/js/21.ae4f2607.js"><link rel="prefetch" href="/docs/assets/js/22.a3c4ed53.js"><link rel="prefetch" href="/docs/assets/js/23.1a14783a.js"><link rel="prefetch" href="/docs/assets/js/24.c08b9b59.js"><link rel="prefetch" href="/docs/assets/js/25.7278d04c.js"><link rel="prefetch" href="/docs/assets/js/26.b119c432.js"><link rel="prefetch" href="/docs/assets/js/27.eb5fd990.js"><link rel="prefetch" href="/docs/assets/js/28.be2d3cbf.js"><link rel="prefetch" href="/docs/assets/js/29.2986b741.js"><link rel="prefetch" href="/docs/assets/js/3.76aa156e.js"><link rel="prefetch" href="/docs/assets/js/31.e5769a00.js"><link rel="prefetch" href="/docs/assets/js/32.208a7f16.js"><link rel="prefetch" href="/docs/assets/js/4.6ae526e2.js"><link rel="prefetch" href="/docs/assets/js/5.b8d3234d.js"><link rel="prefetch" href="/docs/assets/js/6.7862f44a.js"><link rel="prefetch" href="/docs/assets/js/7.16869fe0.js"><link rel="prefetch" href="/docs/assets/js/8.53e3b909.js"><link rel="prefetch" href="/docs/assets/js/9.f51f5238.js">
+    <link rel="preload" href="/docs/assets/css/0.styles.002ecb45.css" as="style"><link rel="preload" href="/docs/assets/js/app.bbd630ab.js" as="script"><link rel="preload" href="/docs/assets/js/2.6be7d115.js" as="script"><link rel="preload" href="/docs/assets/js/27.6c5389ac.js" as="script"><link rel="prefetch" href="/docs/assets/js/10.6ccb26a3.js"><link rel="prefetch" href="/docs/assets/js/11.d6f82515.js"><link rel="prefetch" href="/docs/assets/js/12.2204d5a3.js"><link rel="prefetch" href="/docs/assets/js/13.a2d6df42.js"><link rel="prefetch" href="/docs/assets/js/14.ec2594f3.js"><link rel="prefetch" href="/docs/assets/js/15.55ac1929.js"><link rel="prefetch" href="/docs/assets/js/16.23ce274b.js"><link rel="prefetch" href="/docs/assets/js/17.8dca3ff9.js"><link rel="prefetch" href="/docs/assets/js/18.f58cf81d.js"><link rel="prefetch" href="/docs/assets/js/19.1cfd9cc3.js"><link rel="prefetch" href="/docs/assets/js/20.977c8a4a.js"><link rel="prefetch" href="/docs/assets/js/21.fa2de40e.js"><link rel="prefetch" href="/docs/assets/js/22.75526143.js"><link rel="prefetch" href="/docs/assets/js/23.fa131770.js"><link rel="prefetch" href="/docs/assets/js/24.95d944e7.js"><link rel="prefetch" href="/docs/assets/js/25.1e222b29.js"><link rel="prefetch" href="/docs/assets/js/26.8169a285.js"><link rel="prefetch" href="/docs/assets/js/28.dc8181fd.js"><link rel="prefetch" href="/docs/assets/js/29.25a3b072.js"><link rel="prefetch" href="/docs/assets/js/3.1f062095.js"><link rel="prefetch" href="/docs/assets/js/4.ab196059.js"><link rel="prefetch" href="/docs/assets/js/5.61dedc87.js"><link rel="prefetch" href="/docs/assets/js/6.7862f44a.js"><link rel="prefetch" href="/docs/assets/js/7.50d0ddd9.js"><link rel="prefetch" href="/docs/assets/js/8.866095a0.js"><link rel="prefetch" href="/docs/assets/js/9.e9ae0dd4.js">
     <link rel="stylesheet" href="/docs/assets/css/0.styles.002ecb45.css">
   </head>
   <body>
@@ -37,16 +37,16 @@
                                 |___/
 
 Commands:
-  dy-cli init &lt;project&gt;  Scaffold a new folder with all the subdirectories
-  dy-cli exec &lt;job&gt;      Deploy and execute a job from dist folder against a
-                         running datayoga_spark_runner container
-                         (dy-runner-spark)
-  dy-cli run &lt;job&gt;       Build and execute the job against a running
-                         datayoga_spark_runner container (dy-runner-spark)
-  dy-cli validate        Run against a local livy and validate the code is
-                         correct
-  dy-cli build [job]     Builds a yaml and all its dependencies into a dist
-                         folder or tar file
+  dy-cli init &lt;project&gt;    Scaffold a new folder with all the subdirectories
+  dy-cli exec &lt;pipeline&gt;   Deploy and execute a pipeline from dist folder
+                           against a running datayoga_spark_runner container
+                           (dy-runner-spark)
+  dy-cli run &lt;pipeline&gt;    Build and execute the pipeline against a running
+                           datayoga_spark_runner container (dy-runner-spark)
+  dy-cli validate          Run against a local livy and validate the code is
+                           correct
+  dy-cli build [pipeline]  Builds a yaml and all its dependencies into a dist
+                           folder or tar file
 
 Options:
   --help     Show help                                                 [boolean]
@@ -60,36 +60,38 @@ Options:
   --help     Show help                                                 [boolean]
   --version  Show version number                                       [boolean]
 </code></pre></div><h3 id="exec"><a href="#exec" class="header-anchor">#</a> exec</h3> <div class="language-sh extra-class"><pre class="language-sh"><code>$ dy-cli <span class="token builtin class-name">exec</span> --help
-</code></pre></div><p>Help output:</p> <div class="language- extra-class"><pre class="language-text"><code>dy-cli exec &lt;job&gt;
+</code></pre></div><p>Help output:</p> <div class="language- extra-class"><pre class="language-text"><code>dy-cli exec &lt;pipeline&gt;
 
-Deploy and execute a job from dist folder against a running
+Deploy and execute a pipeline from dist folder against a running
 datayoga_spark_runner container (dy-runner-spark)
 
 Positionals:
-  job  Job id to run                                         [string] [required]
+  pipeline  Pipeline id to run                               [string] [required]
 
 Options:
   --help      Show help                                                [boolean]
   --version   Show version number                                      [boolean]
   --host      Host                               [string] [default: &quot;localhost&quot;]
   --port      Port                                      [number] [default: 8998]
+  --runner    Runner to use                             [string] [default: &quot;js&quot;]
   --loglevel  Logging level
       [string] [choices: &quot;INFO&quot;, &quot;ERROR&quot;, &quot;DEBUG&quot;, &quot;TRACE&quot;, &quot;WARNING&quot;] [default:
                                                                          &quot;INFO&quot;]
 </code></pre></div><h3 id="run"><a href="#run" class="header-anchor">#</a> run</h3> <div class="language-sh extra-class"><pre class="language-sh"><code>$ dy-cli run --help
-</code></pre></div><p>Help output:</p> <div class="language- extra-class"><pre class="language-text"><code>dy-cli run &lt;job&gt;
+</code></pre></div><p>Help output:</p> <div class="language- extra-class"><pre class="language-text"><code>dy-cli run &lt;pipeline&gt;
 
-Build and execute the job against a running datayoga_spark_runner container
+Build and execute the pipeline against a running datayoga_spark_runner container
 (dy-runner-spark)
 
 Positionals:
-  job  Job id to run                                         [string] [required]
+  pipeline  pipeline id to run                               [string] [required]
 
 Options:
   --help      Show help                                                [boolean]
   --version   Show version number                                      [boolean]
   --host      Host                               [string] [default: &quot;localhost&quot;]
   --port      Port                                      [number] [default: 8998]
+  --local     whether to run locally or remote         [boolean] [default: true]
   --loglevel  Logging level
       [string] [choices: &quot;INFO&quot;, &quot;ERROR&quot;, &quot;DEBUG&quot;, &quot;TRACE&quot;, &quot;WARNING&quot;] [default:
                                                                          &quot;INFO&quot;]
@@ -104,7 +106,7 @@ Options:
   --host     Host                                [string] [default: &quot;localhost&quot;]
   --port     Port                                       [number] [default: 8998]
 </code></pre></div><h3 id="build"><a href="#build" class="header-anchor">#</a> build</h3> <div class="language-sh extra-class"><pre class="language-sh"><code>$ dy-cli build --help
-</code></pre></div><p>Help output:</p> <div class="language- extra-class"><pre class="language-text"><code>dy-cli build [job]
+</code></pre></div><p>Help output:</p> <div class="language- extra-class"><pre class="language-text"><code>dy-cli build [pipeline]
 
 Builds a yaml and all its dependencies into a dist folder or tar file
 
@@ -120,6 +122,6 @@ Options:
       </a>
       →
     </span></p></div> </main></div><div class="global-ui"></div></div>
-    <script src="/docs/assets/js/app.d3e72ca2.js" defer></script><script src="/docs/assets/js/2.6be7d115.js" defer></script><script src="/docs/assets/js/30.a9d39353.js" defer></script>
+    <script src="/docs/assets/js/app.bbd630ab.js" defer></script><script src="/docs/assets/js/2.6be7d115.js" defer></script><script src="/docs/assets/js/27.6c5389ac.js" defer></script>
   </body>
 </html>
