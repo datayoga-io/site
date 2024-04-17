@@ -1,0 +1,13 @@
+#Please use the main menu items under the "text"
+- text: Data Flow Canvas
+  url: /data_flow_canvas
+#- text: Blog
+#  url: /blogp
+# submenu:
+#  - text: Blog Details
+# url: /wordpress-hosting
+#  - text: 404
+#   url: /404
+- text: Contact Us
+  url: /contact
+ 
