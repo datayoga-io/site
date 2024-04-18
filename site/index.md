@@ -6,12 +6,12 @@ slider:
   - image:
       src: "/assets/images/home/banner.png"
       alt: "datayoga migrator"
-    heading: "Lift Off to the Cloud with ease"
-    heading2: "Let DataYoga Take the Load of ETL Migration"
+    heading: "Lift off to the cloud with ease"
+    heading2: "Let DataYoga take the load of ETL migration"
     text: "Effortlessly migrate from legacy ETL platforms to the cloud with over 80% automatic conversion"
     button:
       name: "Book a Demo"
-      link: "#"
+      link: "/contact"
 
 # Services
 services:
@@ -20,7 +20,7 @@ services:
 
 # About
 about:
-  heading: "Why Use DataYoga to Migrate Your Legacy ETL to The Cloud?"
+  heading: "Use DataYoga to Migrate Your Legacy ETL to The Cloud!"
   text: "DataYoga is your partner, simplifying the migration of legacy ETL processes to the cloud. Our platform specifically caters to the nuanced demands of businesses undergoing ETL transformation"
   text2: "Commited to helping you plan and reach your migration deadlines"
   image: "/assets/images/about.png"
@@ -28,6 +28,36 @@ about:
     name: "Book a Demo"
     link: "/BookADemo"
 
+# Migration challenges
+challenges:
+  heading: "ETL migration"
+  text: "The top 3 questions in a cloud migration project"
+  list:
+    - icon: "/assets/images/icon_13.png"
+      name: "Where?"
+      listitem:
+        - name: Which platform?
+        - name: Snowflake, DataBricks, Bigquery, Azure, GCP, AWS?
+        - name: "What is the tech stack? python, scala, SQL?"
+        - name: "ELT? ETL? hybrid?"
+        - name: "Which integrations would we need?"
+        - name: "How do we orchestrate?"
+    - icon: "/assets/images/icon_11.png"
+      name: "What?"
+      listitem:
+        - name: "What are the data entities?"
+        - name: "Which pipelines?"
+        - name: "Which workflows?"
+        - name: "What data sources and targets?"
+    - name: "How?"
+      icon: "/assets/images/icon_12.png"
+      listitem:
+        - name: "Decide on the strategy for each technology"
+        - name: "Manual rewrite?"
+        - name: "Automation?"
+        - name: "How do we regression test?"
+
+# Benefits section
 benefit-automatic-conversion:
   heading: Automatic Conversion
   text: Accelerate your cloud migration projects by automating over 90% of the process and 100% of the validations, significantly reducing the time to completion and enhancing your return on investment. This robust automation strategy minimizes human errors and ensures a higher quality migration, facilitating a smooth and reliable transition to any cloud platform.
@@ -51,9 +81,12 @@ benefit-minimize-risk:
     alt: minimize risk
 
 # Contact Area
-contact_area:
-  heading: "Get In Touch With Us"
-  description: "Let's talk about how you can acheive your operational costs targets by migrating your ETL to the cloud with DataYoga"
+talk-to-us:
+  heading: "Have a project in mind?"
+  description: "Reach out to us to see how we can help acheive your operational cost targets by migrating your ETL to the cloud with DataYoga"
+  button:
+    name: Contact Us
+    link: "/contact"
 
 # How it works
 how-it-works:

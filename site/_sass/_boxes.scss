@@ -1,12 +1,15 @@
 // deneb_pricing
 .deneb_pricing{
-	.pircing_box{
+	.box-wrapper{
 		@media #{$md}{
-			margin-bottom: 60px;
+			margin-bottom: 30px;
 		}
 		@media #{$xs}{
-			margin-bottom: 60px;
+			margin-bottom: 30px;
 		}
+	}
+	.box{
+		height:100%;
 		padding: 35px;
 		text-align: center;
 		border-radius: 8px;

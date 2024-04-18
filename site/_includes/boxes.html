@@ -7,15 +7,15 @@
 		<div class="row">
 			<div class="col-lg-12">
 				<div class="section_title text-center">
-					<h2>{{ page.pricing.heading }}</h2>
-					<p>{{ page.pricing.text }}</p>
+					<h2>{{ include.content.heading }}</h2>
+					<p>{{ include.content.text }}</p>
 				</div>
 			</div>
 		</div>
 		<div class="row">
-			{% for list in page.pricing.list %}
-			<div class="col-lg-4 col-md-6 col-sm-12">
-				<div class="pircing_box wow fadeInUp">
+			{% for list in include.content.list %}
+			<div class="box-wrapper col-lg-4 col-md-6 col-sm-12">
+				<div class="box wow fadeInUp">
 					<div class="icon">
 						<img src="{{ list.icon | absolute_url }}" class="img-fluid" alt="">
 					</div>
@@ -32,9 +32,11 @@
 					<div class="price">
 						<h2>{{ list.price }}</h2>
 					</div>
+					{% if list.button %}
 					<div class="button_box">
 						<a href="{{ list.button.link }}" class="deneb_btn">{{ list.button.name }}</a>
 					</div>
+					{% endif %}
 				</div>
 			</div>
 			{% endfor %}

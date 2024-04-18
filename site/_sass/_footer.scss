@@ -24,7 +24,7 @@
 	    		}
 	    	}
 	    }
-	    .widegt_about{
+	    .widget_about{
 	    	p{
 	    		margin-bottom: 20px;
 	    	}
@@ -70,27 +70,27 @@
 	    	}
 	    }
 	    .widget_contact{
-	    	.contact_info{
+			.icon{
+				font-size: 12px;
+				color: $theme_color;
+				margin-right: 10px;
+			}
+			.info{
+				p{
+					& a{
+						color: $text;
+					}
+					& span{
+						display: block;
+					}
+				}
+			}
+			.contact_info{
 	    		.single_info{
 	    			max-width: 250px;
 	    			display: flex;
 		    		flex-wrap: wrap;
 		    		margin-bottom: 20px;
-		    		.icon{
-		    			font-size: 12px;
-		    			color: $theme_color;
-		    			margin-right: 10px;
-		    		}
-		    		.info{
-		    			p{
-		    				& a{
-		    					color: $text;
-		    				}
-		    				& span{
-			    				display: block;
-			    			}
-		    			}
-		    		}
 	    		}
 	    	}
 	    }

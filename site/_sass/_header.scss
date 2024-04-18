@@ -10,16 +10,18 @@
 		}
 		.primary_menu{
 			float: right;
+			background-color: rgba(255,255,255,0.5);
 			.main_menu{
 				ul{
 					li{
 						position: relative;
 						display: inline-block;
 						margin-left: 40px;
+						margin-right: 40px;
 						a{
 							display: block;
 							padding: 17px 0;
-							color: #76787b;
+							color: #4b4d4f;
 							font-weight: 500;
 							position: relative;
 							@media #{$lg}{

@@ -139,24 +139,3 @@ disqus:
   # Leave shortname blank to disable comments site-wide.
   # Disable comments for any post by adding `comments: false` to that post's YAML Front Matter.
   shortname: deneb-1
-
-# Hire us:
-hire_us:
-  heading: "from _config yml - hire us Have Any Project in Mind ?"
-  description: "cymlhu Curabitur libero eros, efficitur sit amet sodales tincidunt, aliquet et leo sed ut nibh feugiat, auctor enim quis."
-  button:
-    link: "/contact/"
-    name: "hire us"
-
-# Book a demo:
-book_a_demo:
-  heading: "from _config yml - book a demo Have Any Project in Mind ?"
-  description: "cymlbad Curabitur libero eros, efficitur sit amet sodales tincidunt, aliquet et leo sed ut nibh feugiat, auctor enim quis."
-  button:
-    link: "/bookademo/"
-    name: "Book A Demo"
-
-# How it works
-How_it_works_area:
-  heading: "How It Works"
-  description: "Use DataYoga to assess your current ETL's migration complexity, Then migrate with ease to any leading data cloud"
