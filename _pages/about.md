@@ -7,10 +7,9 @@ title: "About Us"
 # About
 about:
   heading: "Our Story"
-  text: "At DataYoga, we began by crafting customized data architecture and engineering solutions tailored to the unique challenges of each client. Our leadership team—experts with rich histories in multiple startups—has always been driven by a relentless pursuit of both innovative and practical solutions."
-  text2: "During our extensive work in cloud migration projects, we uncovered a recurring challenge: many customers, though committed to moving to the cloud, found themselves stuck when it came to migrating on-premises ETL pipelines. These legacy systems, steeped in critical business logic and data, were often the last hurdle in their cloud migration journey. To bridge this gap, we developed the DataYoga Migrator—a tool born from necessity but designed with flexibility and scalability in mind. It quickly transitioned from a value-add to an indispensable part of our service, enhancing our operational capabilities and dramatically increasing our support to clients."
-  text3: "Now, the DataYoga Migrator is known for its robustness and impressive automation capabilities of over 90%. 
-  It embodies our commitment to delivering swift, reliable, and adaptive migration solutions that meet the ever-evolving needs of our clients."
+  text: "At DataYoga, we began by providing data architecture consulting services and engineering solutions tailored to the unique challenges of each client. Our leadership team, experts with rich histories in multiple startups, has always been driven by a relentless pursuit of innovative and practical solutions."
+  text2: "During our extensive work in cloud migration projects, we uncovered a recurring challenge: many customers, though committed to moving to the cloud, found themselves stuck when it came to migrating on-premises ETL pipelines. These legacy systems, full of critical business logic and data, were often the last hurdle in their cloud migration journey. To bridge this gap, we developed the DataYoga Migrator—a tool born from necessity but designed with flexibility and scalability in mind. It quickly transitioned from a value-add to an indispensable part of our service, enhancing our operational capabilities and dramatically increasing our support to clients."
+  text3: "Today, the DataYoga Migrator is known for its robustness and impressive automation capabilities of over 90%, delivering swift, reliable, and adaptive migration solutions that meet the ever-evolving needs of our clients."
   
   image: "/assets/images/yoga.png"
  
