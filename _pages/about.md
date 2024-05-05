@@ -1,80 +1,46 @@
 ---
 layout: about
 permalink: /about/
-page_header_image: "/assets/images/page_header.jpg"
-title: "About Me"
+page_header_image: "/assets/images/page_header_2.jpg"
+title: "About Us"
 
 # About
 about:
-  heading: "Why You Hire Us?"
-  text: "Proin ipsum arcu, lobortis id ullamcorper nec, vehicula eget magna. Sed ut malesuada magna, eget lacinia sapien. Nam molestie non ex sit amet ornare. Nunc in pellentesque ipsum, vel vulputate sapien."
-  text2: "Suspendisse potenti. Aliquam elementum felis purus, quis vulputate libero semper nec. Morbi tincidunt maximus nisl vel placerat. Curabitur at ligula ac diam elementum hendrerit. Suspendisse nec metus eu est laoreet hendrerit vitae non ipsum. Nam faucibus elementum arcu, eget eleifend tortor."
-  image: "/assets/images/about.png"
-  button:
-    name: "Read More"
-    link: "/about"
-
-# skills
-our_skill:
-  heading: "Let Know Our Expert Skills"
-  description: "Curabitur libero eros, efficitur sit amet sodales tincidunt, aliquet et leo. Sed ut nibh feugiat, auctor enim quis, hendrerit ipsum. Aenean blandit lacinia suscipit. Nunc ut tincidunt massa, eu semper lacus."
-  image: "/assets/images/skill.png"
-  list:
-    - name: "UI/UX Design"
-      percentage: "85%"
-    - name: "Web Design"
-      percentage: "75%"
-    - name: "HTML/CSS"
-      percentage: "90%"
-    - name: "Sketch"
-      percentage: "65%"
-
-# Work Experience
-work_experience:
-  heading: "Our Work Experience"
-  description: "When unknow printer took a gallery of type and scramblted it to make a type specimen book"
-  list:
-    - name: "1."
-      text: "Mauris dictum eros purus, vitae pharetra risus pulvinar rhoncus. Duis bibendum tristique luctus. Aliquam non urna odio morbi nec lectus tempus lorem vehicula consequat sed eu lectus. Ut maximus nulla a est placer."
-      position: "Graphic Designer"
-      name2: "john abraham"
-      duration: "March 2007- August 2020"
-    - name: "2."
-      text: "Mauris dictum eros purus, vitae pharetra risus pulvinar rhoncus. Duis bibendum tristique luctus. Aliquam non urna odio morbi nec lectus tempus lorem vehicula consequat sed eu lectus. Ut maximus nulla a est placer."
-      position: "Graphic Designer"
-      name2: "john abraham"
-      duration: "March 2007- August 2020"
-    - name: "3."
-      text: "Mauris dictum eros purus, vitae pharetra risus pulvinar rhoncus. Duis bibendum tristique luctus. Aliquam non urna odio morbi nec lectus tempus lorem vehicula consequat sed eu lectus. Ut maximus nulla a est placer."
-      position: "Graphic Designer"
-      name2: "john abraham"
-      duration: "March 2007- August 2020"
-
+  heading: "Our Story"
+  text: "At DataYoga, we began by crafting customized data architecture and engineering solutions tailored to the unique challenges of each client. Our leadership team—experts with rich histories in multiple startups—has always been driven by a relentless pursuit of both innovative and practical solutions."
+  text2: "During our extensive work in cloud migration projects, we uncovered a recurring challenge: many customers, though committed to moving to the cloud, found themselves stuck when it came to migrating on-premises ETL pipelines. These legacy systems, steeped in critical business logic and data, were often the last hurdle in their cloud migration journey. To bridge this gap, we developed the DataYoga Migrator—a tool born from necessity but designed with flexibility and scalability in mind. It quickly transitioned from a value-add to an indispensable part of our service, enhancing our operational capabilities and dramatically increasing our support to clients."
+  text3: "Now, the DataYoga Migrator is known for its robustness and impressive automation capabilities of over 90%. 
+  It embodies our commitment to delivering swift, reliable, and adaptive migration solutions that meet the ever-evolving needs of our clients."
+  
+  image: "/assets/images/yoga.png"
+ 
 # Testimonials
 testimonials:
-  heading: "What do People Say"
-  description: "When unknow printer took a gallery of type and scramblted it to make a type specimen book"
+  heading: "The Team"
+  description: "Together for over 20 years - "
+  description2: "Solving real challenges with technology is our passion!"
   list:
-    - name: "John Doe"
-      position: "Freelancer UX Designer"
-      image: "/assets/images/testimonial_1.jpg"
-      text: "Donec condimentum vehicula iaculis. Maecenas in aliquet neque. Suspendisse viverra, ante eget pellentesque pulvinar, nunc nisi molestie ligula, vitae convallis orci justo vitae sem. Integer vitae imperdiet augue, sed accumsan diam. Etiam non quam commodo dolor convallis cursus. Duis tempus dolor eget gravida fringilla. In ultricies velit eget sem tempus egestas."
-    - name: "Jake Johnson"
-      position: "Freelancer UX Designer"
-      image: "/assets/images/testimonial_2.jpg"
-      text: "Donec condimentum vehicula iaculis. Maecenas in aliquet neque. Suspendisse viverra, ante eget pellentesque pulvinar, nunc nisi molestie ligula, vitae convallis orci justo vitae sem. Integer vitae imperdiet augue, sed accumsan diam. Etiam non quam commodo dolor convallis cursus. Duis tempus dolor eget gravida fringilla. In ultricies velit eget sem tempus egestas."
-    - name: "Celesto Anderson"
-      position: "Freelancer UX Designer"
-      image: "/assets/images/testimonial_3.jpg"
-      text: "Donec condimentum vehicula iaculis. Maecenas in aliquet neque. Suspendisse viverra, ante eget pellentesque pulvinar, nunc nisi molestie ligula, vitae convallis orci justo vitae sem. Integer vitae imperdiet augue, sed accumsan diam. Etiam non quam commodo dolor convallis cursus. Duis tempus dolor eget gravida fringilla. In ultricies velit eget sem tempus egestas."
+    - name: "Oren Elias"
+      position: "Founder and CEO"
+      image: "/assets/images/oren-elias.jpg"
+      text: "A seasoned entrepreneur, Oren Elias has founded and led multiple startups, guiding them from inception to production with Fortune 500 clients on mission-critical systems. As the founder of DataYoga, he has played a pivotal role in the architecture and development of cloud data solutions for customers, integrating state-of-the-art technologies to enhance their capabilities and efficiency."
+    - name: "John Reuben"
+      position: "Head of Sales"
+      image: "/assets/images/JohnReuben.jpg"
+      text: "John brings over thirty years of experience in technology sales. From his formative years at Oracle to his current role, he has a proven track record of understanding customer needs and offering solutions that enable customers to not only meet but surpass their operational goals."
+    - name: "Yossi Shirizli"
+      position: "Head of R&D"
+      image: "/assets/images/Yossi.jpg"
+      text: "For over 20 years, Yossi has been at the forefront of software development, skillfully building, managing, and mentoring robust R&D teams. His proven problem-solving skills and can-do attitude have consistently led to innovations that meet complex business needs."
+    - name: "Darya Elias"
+      position: "Product and Operations"
+      image: "/assets/images/DaryaElias.jpg"
+      text: "With over three decades in the software industry, Darya brings deep expertise in product and account management. She is dedicated to delivering innovative solutions that enhance productivity and drive business success for our customers."
 
-# Latest Blog Post
-latest_blog_post:
-  heading: "Latest Blog"
-  description: "When unknow printer took a gallery of type and scramblted it to make a type specimen book"
+
 
 # Contact Area
 contact_area:
   heading: "Get In Touch With Us"
-  description: "When unknow printer took a gallery of type and scramblted it to make a type specimen book"
+  description: "We'd love to hear about your cloud migration plans, and tell you more on how we can help shift your on-prem pipelines to the cloud."
 ---
