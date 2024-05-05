@@ -77,15 +77,6 @@
             }
         ]
     });
-    $('.testimonial_slide').slick({
-        arrows: false,
-        dots: true,
-        infinite: true,
-        autoplay: true,
-        slidesToShow: 1,
-        fade: true,
-        slidesToScroll: 1
-    });
     /*---------------------- 
         Slick slider js
     ------------------------*/
