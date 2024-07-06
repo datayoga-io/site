@@ -28,7 +28,7 @@ about:
     name: "Book a Demo"
     link: "/BookADemo"
 
-# Migration challenges
+# Migration challenges - Boxes layout
 challenges:
   heading: "ETL migration"
   text: "The top 3 questions in a cloud migration project"
@@ -57,7 +57,7 @@ challenges:
         - name: "Automation?"
         - name: "How do we regression test?"
 
-# Benefits section
+# Benefits section - content-section-left layout
 benefit-automatic-conversion:
   heading: Automatic Conversion
   text: Accelerate your cloud migration projects by automating over 90% of the process and 100% of the validations, significantly reducing the time to completion and enhancing your return on investment. This robust automation strategy minimizes human errors and ensures a higher quality migration, facilitating a smooth and reliable transition to any cloud platform.
@@ -65,6 +65,7 @@ benefit-automatic-conversion:
     src: "/assets/images/home/benefits_automation.jpg"
     alt: "automated conversion"
 
+#content-section-right layout 
 benefit-migrate-anywhere:
   heading: Migrate Anywhere
   text: Convert to all leading cloud DBs, ETL, and ELT frameworks, including Snowflake, DataBricks, Bigquery, and DBT.
@@ -72,7 +73,7 @@ benefit-migrate-anywhere:
   image:
     src: "/assets/images/home/benefits_anywhere.jpg"
     alt: "migration to snowflake, databricks, bigquery, dbt"
-
+#content-section-left layout
 benefit-minimize-risk:
   heading: Minimize Risk
   text: Minimize the risks associated with manual conversions. A built-in validation process is automatically created for each transformation, checking the integrity and consistency of data, ensuring any potential issues are identified and resolved early. Our preliminary assessments detect potential obstacles before the migration begins, allowing for timely and effective planning. This proactive approach not only maintains the quality and reliability of your data infrastructure but also minimizes downtime and operational disruptions.
@@ -80,7 +81,7 @@ benefit-minimize-risk:
     src: "/assets/images/home/benefits_risk_minimize.jpg"
     alt: minimize risk
 
-# Contact Area
+# Contact Area - cta-box layout
 talk-to-us:
   heading: "Have a project in mind?"
   description: "Reach out to us to see how we can help acheive your operational cost targets by migrating your ETL to the cloud with DataYoga"
@@ -88,7 +89,7 @@ talk-to-us:
     name: Contact Us
     link: "/contact"
 
-# How it works
+# How it works - content-section-center layout
 how-it-works:
   heading: "How It Works"
   text: "Use DataYoga to assess your current ETL's migration complexity, then migrate with ease to any leading cloud"
@@ -96,6 +97,7 @@ how-it-works:
     src: "/assets/images/home/process.png"
     alt: how DataYoga works
 
+#process layout
 migration-process:
   heading: Migration Process
   description: our migration process
