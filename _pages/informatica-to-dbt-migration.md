@@ -20,7 +20,7 @@ slider:
   
 
 # Hidden Costs Section
-hidden-costs:
+hidden-costs1:
   heading: "The Hidden Costs of Legacy Pipelines"
   text: "Continueing to maintain legacy pipelines may result in:"
   list:
@@ -32,6 +32,9 @@ hidden-costs:
       name: "Data Silos"
       listitem:
         - name: "Fragmented data preventing seamless integration and comprehensive analysis"
+
+hidden-costs2:
+  list:
     - icon: "/assets/images/informatica-to-dbt/skill-gap-icon.png"
       name: "Skill Gap"
       listitem:
