@@ -42,7 +42,7 @@ hidden-costs1:
 # Key Challenges Section
 key-challenges-header:
   heading: "Key Challenges in Migrating from Informatica to dbt"
-  text: "Why choose DataYogaMigrator for your ETL migration project?"
+  text: "Migrating from Informatica to dbt can be complex. Here are the key challenges you may encounter:"
 
 #workflow translation
 workflow-translation:
@@ -117,11 +117,12 @@ migration-process:
     - bullet: 2.
       title: Conversion
       subtitle1: Parse and process pipelines
-      text: Rewire passive transformations into a streamlined, linear flow and transform all blocks into our proprietary, target-agnostic format. This ensures that piplines are ready to be optimized for any cloud environment in the subsequent rendering step.
+      text: Rewire passive transformations into a streamlined, linear flow and transform all blocks into our proprietary, target-agnostic format. This ensures that pipelines are ready to be optimized for any cloud environment in the subsequent rendering step.
     - bullet: 3.
       title: Rendering and Optimization
       subtitle1: Generate dbt artifacts
-      text: dbt models  are generated, ensuring accurate dialect translation and optimization.
+
+      text: dbt models are generated, ensuring accurate dialect translation and optimization.
     - bullet: 4.
       title: Validation
       subtitle1: Ensuring data consistency
@@ -135,11 +136,11 @@ migration-process:
 why-choose:
   heading: "Why Choose DataYoga Migrator?"
   list:
-    - icon: "/assets/images/informatica-to-dbt/icon-expertise.png"
+    - icon: "/assets/images/informatica-to-dbt/checkmark.png"
       name: "Specialized Expertise"
       listitem:
         - name: "Deep understanding of both Informatica and dbt"
-    - icon: "/assets/images/informatica-to-dbt/icon-time-cost.png"
+    - icon: "/assets/images/informatica-to-dbt/checkmark.png"
       name: "Time and Cost Savings"
       listitem:
         - name: "Significantly reduce migration timelines and associated costs"
