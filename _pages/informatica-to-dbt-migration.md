@@ -4,7 +4,6 @@ permalink: /informatica-to-dbt-migration/
 page_header_image: "/assets/images/page_header_2.jpg"
 title: "Informatica to dbt Migration"
 
-
 # slider Section
 slider:
   - image:
@@ -17,7 +16,6 @@ slider:
     button:
       name: "Book a Demo"
       link: "/contact"
-  
 
 # Hidden Costs Section
 hidden-costs1:
@@ -56,39 +54,38 @@ key-challenges-header:
 workflow-translation:
   heading: "Complex Workflow Translation"
   text: "Mapping intricate Informatica processes to dbt's SQL-based transformations"
-  image: 
-    src:  "/assets/images/informatica-to-dbt/complex-workflows.png"
+  image:
+    src: "/assets/images/informatica-to-dbt/complex-workflows.jpg"
     alt: "workflow translation"
-    
+
 system-integration:
   heading: System Integration
   text: "Seamlessly connecting with existing data sources and platforms"
-  image: 
-    src:  "/assets/images/informatica-to-dbt/image-2.png"
+  image:
+    src: "/assets/images/informatica-to-dbt/integration.jpg"
     alt: "seamless Integration"
 
 data-quality-assurance:
   heading: Data Quality Assurance
   text: "Maintaining consistency and accuracy throughout the migration"
-  image: 
-    src:  "/assets/images/informatica-to-dbt/data-qa.png"
+  image:
+    src: "/assets/images/informatica-to-dbt/data-qa.jpg"
     alt: "Data QA"
 
 performance-optimization:
   heading: "Performance Optimization"
-  text:  "Ensuring efficient query execution in the new environment"
-  image: 
-    src:  "/assets/images/informatica-to-dbt/image3.png"
+  text: "Ensuring efficient query execution in the new environment"
+  image:
+    src: "/assets/images/informatica-to-dbt/image3.png"
     alt: "Performance"
-  
+
 # DataYoga Migrator Section
 datayoga-migrator:
   heading: "DataYoga Migrator"
   text: "Scaleble Informatica PC to dbt migration"
   image:
-    src:  "/assets/images/informatica-to-dbt/datayoga-informatica-to-dbt-migation.png"
+    src: "/assets/images/informatica-to-dbt/datayoga-informatica-to-dbt-migation.png"
     alt: "DataYoga Migrator"
- 
 
 datayoga-migrator1:
   heading: "Introducing DataYoga Migrator"
@@ -115,8 +112,6 @@ intro-datayoga:
     src: "/assets/images/informatica-to-dbt/datayoga-informatica-to-dbt-migation.png"
     alt: how DataYoga works
 
-
-
 # Migration Process Section
 migration-process:
   heading: "The Migration Process with DataYoga"
@@ -141,8 +136,6 @@ migration-process:
       title: Acceptance
       subtitle1: End-to-end regression testing
       text: Rendered artifacts are executed in the cloud platform. A detailed comparison is conducted of the target data entities with those from the legacy pipelines. This final verification ensures that the migration not only aligns perfectly with operational requirements but also maintains data integrity.
- 
- 
 
 # Why Choose DataYoga Section
 why-choose:
@@ -155,15 +148,15 @@ why-choose:
     - icon: "/assets/images/informatica-to-dbt/icon-time-cost.png"
       name: "Time and Cost Savings"
       listitem:
-      - name: "Significantly reduce migration timelines and associated costs"
+        - name: "Significantly reduce migration timelines and associated costs"
     - icon: "/assets/images/informatica-to-dbt/icon-risk-mitigation.png"
       name: "Risk Mitigation"
       listitem:
-      - name: "Ensure data quality and consistency throughout the process"
+        - name: "Ensure data quality and consistency throughout the process"
     - icon: "/assets/images/informatica-to-dbt/icon-future-proof.png"
       name: "Future-Proofing"
       listitem:
-      - name: "Set the foundation for scalable, agile data transformation"
+        - name: "Set the foundation for scalable, agile data transformation"
 
 # Call to Action
 cta:
@@ -172,7 +165,7 @@ cta:
   button:
     name: "Schedule a Demo"
     link: "/contact"
-    
+
 # FAQ Section
 faq:
   heading: "Frequently Asked Questions"
