@@ -10,7 +10,7 @@ slider:
   - image:
       src: "/assets/images/informatica2dbt.png"
       alt: "datayoga migrator"
-    heading: "Use DataYoga Migrator for Seamless Migration from Informatica PC to dbt"
+    heading: "Use DataYoga Migrator for Seamless Migration from Informatica PWC to dbt"
     heading2: "Unlock Modern Data Transformation with DataYoga Migrator"
     text: "Modernize your data pipelines with automated conversion, preserving business logic and optimizing for cloud performance. Minimize risk and maximize ROI in your migration journey."
 
@@ -22,7 +22,7 @@ slider:
 # Hidden Costs Section
 hidden-costs1:
   heading: "The Hidden Costs of Legacy Pipelines"
-  text: "Continueing to maintain legacy pipelines may result in:"
+  text: "Continuing to maintain legacy pipelines may result in:"
   list:
     - icon: "/assets/images/informatica-to-dbt/icon-increased-costs.png"
       name: "Increased Costs"
@@ -44,10 +44,8 @@ hidden-costs1:
 # Key Challenges Section
 key-challenges-header:
   heading: "Key Challenges in Migrating from Informatica to dbt"
-  text: "Why choose DataYogaMigrator for your ETL migration project?"
-  image:
-    src: "/assets/images/home/kuku.png"
-    alt: how DataYoga works
+  text: "Migrating from Informatica to dbt can be complex. Here are the key challenges you may encounter:"
+
 
 #workflow translation
 workflow-translation:
@@ -81,7 +79,7 @@ performance-optimization:
 # DataYoga Migrator Section
 datayoga-migrator:
   heading: "DataYoga Migrator"
-  text: "Scaleble Informatica PC to dbt migration"
+  text: "Scalable Informatica PWC to dbt migration"
   image:
     src:  "/assets/images/informatica-to-dbt/datayoga-informatica-to-dbt-migation.png"
     alt: "DataYoga Migrator"
@@ -125,11 +123,12 @@ migration-process:
     - bullet: 2.
       title: Conversion
       subtitle1: Parse and process pipelines
-      text: Rewire passive transformations into a streamlined, linear flow and transform all blocks into our proprietary, target-agnostic format. This ensures that piplines are ready to be optimized for any cloud environment in the subsequent rendering step.
+      text: Rewire passive transformations into a streamlined, linear flow and transform all blocks into our proprietary, target-agnostic format. This ensures that pipelines are ready to be optimized for any cloud environment in the subsequent rendering step.
     - bullet: 3.
       title: Rendering and Optimization
       subtitle1: Generate dbt artifacts
-      text: dbt models  are generated, ensuring accurate dialect translation and optimization.
+
+      text: dbt models are generated, ensuring accurate dialect translation and optimization.
     - bullet: 4.
       title: Validation
       subtitle1: Ensuring data consistency
@@ -145,22 +144,22 @@ migration-process:
 why-choose:
   heading: "Why Choose DataYoga Migrator?"
   list:
-    - icon: "/assets/images/informatica-to-dbt/icon-expertise.png"
+    - icon: "/assets/images/informatica-to-dbt/checkmark.png"
       name: "Specialized Expertise"
       listitem:
         - name: "Deep understanding of both Informatica and dbt"
-    - icon: "/assets/images/informatica-to-dbt/icon-time-cost.png"
+    - icon: "/assets/images/informatica-to-dbt/checkmark.png"
       name: "Time and Cost Savings"
       listitem:
       - name: "Significantly reduce migration timelines and associated costs"
-    - icon: "/assets/images/informatica-to-dbt/icon-risk-mitigation.png"
+    - icon: "/assets/images/informatica-to-dbt/checkmark.png"
       name: "Risk Mitigation"
       listitem:
       - name: "Ensure data quality and consistency throughout the process"
-    - icon: "/assets/images/informatica-to-dbt/icon-future-proof.png"
-      name: "Future-Proofing"
-      listitem:
-      - name: "Set the foundation for scalable, agile data transformation"
+    #- icon: "/assets/images/informatica-to-dbt/icon-future-proof.png"
+      #name: "Future-Proofing"
+      #listitem:
+      #- name: "Set the foundation for scalable, agile data transformation"
 
 # Call to Action
 cta:
