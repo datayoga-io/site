@@ -9,7 +9,7 @@ slider:
   - image:
       src: "/assets/images/informatica2dbt.png"
       alt: "datayoga migrator"
-    heading: "Use DataYoga Migrator for Seamless Migration from Informatica PC to dbt"
+    heading: "Use DataYoga Migrator for Seamless Migration from Informatica PWC to dbt"
     heading2: "Unlock Modern Data Transformation with DataYoga Migrator"
     text: "Modernize your data pipelines with automated conversion, preserving business logic and optimizing for cloud performance. Minimize risk and maximize ROI in your migration journey."
 
@@ -20,7 +20,7 @@ slider:
 # Hidden Costs Section
 hidden-costs1:
   heading: "The Hidden Costs of Legacy Pipelines"
-  text: "Continueing to maintain legacy pipelines may result in:"
+  text: "Maintaining legacy pipelines results in:"
   list:
     - icon: "/assets/images/informatica-to-dbt/icon-increased-costs.png"
       name: "Increased Costs"
@@ -30,25 +30,19 @@ hidden-costs1:
       name: "Data Silos"
       listitem:
         - name: "Fragmented data preventing seamless integration and comprehensive analysis"
-
-hidden-costs2:
-  list:
     - icon: "/assets/images/informatica-to-dbt/skill-gap-icon.png"
       name: "Skill Gap"
       listitem:
         - name: "Difficulty finding professionals skilled in both legacy and modern systems"
-    - icon: "/assets/images/informatica-to-dbt/compliance-icon.png"
-      name: "Compliance Risks"
-      listitem:
-        - name: "Potential security vulnerabilities and regulatory non-compliance"
+      #- icon: "/assets/images/informatica-to-dbt/compliance-icon.png"
+      #name: "Compliance Risks"
+      #listitem:
+      # - name: "Potential security vulnerabilities and regulatory non-compliance"
 
 # Key Challenges Section
 key-challenges-header:
   heading: "Key Challenges in Migrating from Informatica to dbt"
   text: "Why choose DataYogaMigrator for your ETL migration project?"
-  image:
-    src: "/assets/images/home/kuku.png"
-    alt: how DataYoga works
 
 #workflow translation
 workflow-translation:
@@ -76,13 +70,13 @@ performance-optimization:
   heading: "Performance Optimization"
   text: "Ensuring efficient query execution in the new environment"
   image:
-    src: "/assets/images/informatica-to-dbt/image3.png"
+    src: "/assets/images/informatica-to-dbt/performance.jpg"
     alt: "Performance"
 
 # DataYoga Migrator Section
 datayoga-migrator:
   heading: "DataYoga Migrator"
-  text: "Scaleble Informatica PC to dbt migration"
+  text: "Scaleble Informatica PWC to dbt migration"
   image:
     src: "/assets/images/informatica-to-dbt/datayoga-informatica-to-dbt-migation.png"
     alt: "DataYoga Migrator"
@@ -107,7 +101,7 @@ datayoga-migrator1:
 # How it works - content-section-center layout
 intro-datayoga:
   heading: "DataYoga Migrator"
-  text: "Scaleble Informatica PC to dbt migration"
+  text: "Scaleble Informatica PWC to dbt migration"
   image:
     src: "/assets/images/informatica-to-dbt/datayoga-informatica-to-dbt-migation.png"
     alt: how DataYoga works
@@ -153,10 +147,6 @@ why-choose:
       name: "Risk Mitigation"
       listitem:
         - name: "Ensure data quality and consistency throughout the process"
-    - icon: "/assets/images/informatica-to-dbt/icon-future-proof.png"
-      name: "Future-Proofing"
-      listitem:
-        - name: "Set the foundation for scalable, agile data transformation"
 
 # Call to Action
 cta:
