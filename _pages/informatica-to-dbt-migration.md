@@ -32,17 +32,14 @@ hidden-costs1:
       name: "Data Silos"
       listitem:
         - name: "Fragmented data preventing seamless integration and comprehensive analysis"
-
-hidden-costs2:
-  list:
     - icon: "/assets/images/informatica-to-dbt/skill-gap-icon.png"
       name: "Skill Gap"
       listitem:
         - name: "Difficulty finding professionals skilled in both legacy and modern systems"
-    - icon: "/assets/images/informatica-to-dbt/compliance-icon.png"
-      name: "Compliance Risks"
-      listitem:
-        - name: "Potential security vulnerabilities and regulatory non-compliance"
+      #- icon: "/assets/images/informatica-to-dbt/compliance-icon.png"
+      #name: "Compliance Risks"
+      #listitem:
+      # - name: "Potential security vulnerabilities and regulatory non-compliance"
 
 # Key Challenges Section
 key-challenges-header:
@@ -78,7 +75,7 @@ performance-optimization:
   heading: "Performance Optimization"
   text:  "Ensuring efficient query execution in the new environment"
   image: 
-    src:  "/assets/images/informatica-to-dbt/image3.png"
+    src:  "/assets/images/informatica-to-dbt/Performance.png"
     alt: "Performance"
   
 # DataYoga Migrator Section
