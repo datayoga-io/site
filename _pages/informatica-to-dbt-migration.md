@@ -127,7 +127,7 @@ why-choose:
       name: "Time and Cost Savings"
       listitem:
         - name: "Significantly reduce migration timelines and associated costs"
-    - icon: "/assets/images/informatica-to-dbt/icon-risk-mitigation.png"
+    - icon: "/assets/images/informatica-to-dbt/checkmark.png"
       name: "Risk Mitigation"
       listitem:
         - name: "Ensure data quality and consistency throughout the process"
