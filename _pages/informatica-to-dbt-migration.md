@@ -170,7 +170,7 @@ faq:
 
 # Contact Info
 contact:
-  text: "Contact us at info@datayoga.io to learn more about how we can transform your data processes and unlock the full potential of your data assets with dbt."
+  text: "Contact us at to learn more about how we can transform your data processes and unlock the full potential of your data assets with dbt."
 ---
 
 ---
