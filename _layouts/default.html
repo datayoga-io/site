@@ -10,6 +10,13 @@
 		<title>{% if page.title %} {{ page.title }} {% else %} {{ site.title }} {% endif %}</title>
 		<!-- Favicon Icon -->
     	<link rel="shortcut icon" href="{{ "/assets/images/favicon.ico" | absolute_url }}" type="image/png">
+		<!-- Google Tag Manager -->
+		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+			new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+			j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+			'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+			})(window,document,'script','dataLayer','GTM-TH9XLWX');</script>
+		<!-- End Google Tag Manager -->
 		<!-- All css -->
 		<!--Bootstrap css-->
 	    <link rel="stylesheet" href="{{ "/assets/css/bootstrap.min.css" | absolute_url }}">
@@ -26,6 +33,10 @@
 	    <link rel="stylesheet" href="{{ "/assets/css/style.css" | absolute_url }}">
 	</head>
 	<body>
+		<!-- Google Tag Manager (noscript) -->
+		<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TH9XLWX"
+			height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+		<!-- End Google Tag Manager (noscript) -->
 		<!-- Preloader -->
 		{% if site.site_preloader %}
 		<div class="preloader">
