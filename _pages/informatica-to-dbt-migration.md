@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: informatica_pwc_to_dbt
 permalink: /informatica-to-dbt-migration/
 page_header_image: "/assets/images/page_header_2.jpg"
 title: "Informatica to dbt Migration"
@@ -81,27 +81,10 @@ datayoga-migrator:
     src: "/assets/images/informatica-to-dbt/datayoga-informatica-to-dbt-migation.png"
     alt: "DataYoga Migrator"
 
-datayoga-migrator1:
-  heading: "Introducing DataYoga Migrator"
-  text: "DataYoga Migrator is designed to address these challenges head-on, providing a seamless transition from Informatica to dbt."
-  image:
-    src: "/assets/images/datayoga-informatica-to-dbt-migation.png"
-    alt: "DataYoga Migrator"
-  features:
-    - name: "Automated Conversion"
-      text: "Translate Informatica workflows to dbt models with minimal manual effort"
-    - name: "Business Logic Preservation"
-      text: "Maintain data integrity and lineage throughout the migration"
-    - name: "dbt Best Practices Implementation"
-      text: "Restructure workflows to align with dbt's architectural patterns"
-    - name: "Comprehensive Documentation"
-      text: "Generate detailed mappings and audit trails"
-    - name: "Performance Optimization"
-      text: "Fine-tune converted models for optimal execution in cloud environments"
 # How it works - content-section-center layout
 intro-datayoga:
   heading: "DataYoga Migrator"
-  text: "Scaleble Informatica PWC to dbt migration"
+  text: "Scalable Informatica PWC to dbt migration"
   image:
     src: "/assets/images/informatica-to-dbt/datayoga-informatica-to-dbt-migation.png"
     alt: how DataYoga works
