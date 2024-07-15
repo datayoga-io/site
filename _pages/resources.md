@@ -17,10 +17,10 @@ whitepaper1:
   
   image: "/assets/images/informatica-to-dbt/datayoga-informatica-to-dbt-migation.png"
   button:
-    name: "Download whitepaper"
+    name: "Download White Paper"
     link: "/resources/download_documents"
 # Contact Area
 contact_area:
-  heading: "Get the white paper"
+  heading: "Get the white Paper"
   description: "Fill in your details to get the white paper"
 ---
