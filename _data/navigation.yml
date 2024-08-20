@@ -8,12 +8,16 @@
 # url: /wordpress-hosting
 #  - text: 404
 #   url: /404
-- text: Informatica to dbt Migration
-  url: /informatica-to-dbt-migration/
+- text: Informatica Migration
+  url: "#"
+  submenu:
+    - text: Informatica to dbt
+      url: /informatica-to-dbt-migration/ 
+    - text: Informatica to Snowflake
+      url: /informatica-to-snowflake-migration
 - text: About Us
   url: /about
 - text: Resources
   url: /resources
 - text: Contact Us
   url: /contact
- 
