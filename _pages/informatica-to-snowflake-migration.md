@@ -15,8 +15,8 @@ slider:
     text: "Modernize your data pipelines with automated conversion, preserving business logic and optimizing for Snowflake's cloud-native features. Harness Snowflake's scalable cloud data platform while minimizing risk and maximizing ROI in your migration journey."
 
     button:
-      name: "Book a Demo"
-      link: "/contact"
+      name: "Download Whitepaper"
+      link: "/resources/download_documents"
 
 # Hidden Costs Section
 hidden-costs1:
