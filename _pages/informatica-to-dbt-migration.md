@@ -14,8 +14,8 @@ slider:
     text: "Modernize your data pipelines with automated conversion, preserving business logic and optimizing for cloud performance. Minimize risk and maximize ROI in your migration journey."
 
     button:
-      name: "Book a Demo"
-      link: "/contact"
+      name: "Download Whitepaper"
+      link: "/resources/download_documents"
 
 # Hidden Costs Section
 hidden-costs1:
