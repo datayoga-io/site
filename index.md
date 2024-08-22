@@ -6,9 +6,9 @@ slider:
   - image:
       src: "/assets/images/home/banner.png"
       alt: "datayoga migrator"
-    heading: "Lift off to the cloud with ease"
-    heading2: "Let DataYoga take the load of ETL migration"
-    text: "Effortlessly migrate from legacy ETL platforms to the cloud with over 80% automatic conversion"
+    heading: "Accelerating Data Innovation"
+    heading2: "Advanced data integration services and tools for software companies, integrators and enterprises"
+    text: "Our solutions streamline data flows, improve efficiency, and support innovation"
     button:
       name: "Book a Demo"
       link: "/contact"
