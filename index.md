@@ -4,122 +4,122 @@ layout: home
 # Slider
 slider:
   - image:
-      src: "/assets/images/home/banner.png"
-      alt: "datayoga migrator"
+      src: "/assets/images/datapartner1.png"
+      alt: "DataYoga - Accelerating Data Innovation"
     heading: "Accelerating Data Innovation"
     heading2: "Advanced data integration services and tools for software companies, integrators and enterprises"
-    text: "Our solutions streamline data flows, improve efficiency, and support innovation"
+    text: "We specialize in optimizing complex data pipelines, enhancing data integration processes, and enabling seamless migration to modern cloud platforms."
     button:
-      name: "Book a Demo"
+      name: "Discuss your challenge"
       link: "/contact"
 
 # Services
 services:
-  heading: "Data Yoga Migrator"
-  text: "Eliminate uncertainty when migrating to the cloud"
+  heading: "Our Services"
+  text: "Empowering your data infrastructure capabilities"
 
 # About
 about:
-  heading: "Use DataYoga to Migrate Your Legacy ETL to The Cloud!"
-  text: "DataYoga is your partner, simplifying the migration of legacy ETL processes to the cloud. Our platform specifically caters to the nuanced demands of businesses undergoing ETL transformation"
-  text2: "Commited to helping you plan and reach your migration deadlines"
+  heading: "Your Data Integration Partner"
+  text: "We provide advanced data integration services and tools for software companies, integrators and enterprises. Our solutions streamline data flows, improve efficiency, and support innovation."
+  text2: "DataYoga is your trusted partner for data integration, transformation, and migration."
   image: "/assets/images/about.png"
   button:
-    name: "Book a Demo"
-    link: "/BookADemo"
+    name: "Learn More"
+    link: "/etl-migration/#"
 
-# Migration challenges - Boxes layout
+# Service offerings - Boxes layout
 challenges:
-  heading: "ETL migration"
-  text: "The top 3 questions in a cloud migration project"
+  heading: "Our Core Services"
+  text: "Comprehensive data solutions for your evolving business needs"
   list:
-    - icon: "/assets/images/icon_13.png"
-      name: "Where?"
+    - icon: "/assets/images/icon_architecture_optimization.png"
+      name: "Optimized Data Architecture"
       listitem:
-        - name: Which platform?
-        - name: Snowflake, DataBricks, Bigquery, Azure, GCP, AWS?
-        - name: "What is the tech stack? python, scala, SQL?"
-        - name: "ELT? ETL? hybrid?"
-        - name: "Which integrations would we need?"
-        - name: "How do we orchestrate?"
-    - icon: "/assets/images/icon_11.png"
-      name: "What?"
+        - name: "Design scalable, high-performance data systems"
+        - name: "Tailor architectures to your specific needs"
+        - name: "Enhance efficiency and processing capabilities"
+    - icon: "/assets/images/icon_legacy_migration.png"
+      name: "Legacy Data Pipeline Migration"
       listitem:
-        - name: "What are the data entities?"
-        - name: "Which pipelines?"
-        - name: "Which workflows?"
-        - name: "What data sources and targets?"
-    - name: "How?"
-      icon: "/assets/images/icon_12.png"
-      listitem:
-        - name: "Decide on the strategy for each technology"
-        - name: "Manual rewrite?"
-        - name: "Automation?"
-        - name: "How do we regression test?"
+        - name: "Seamlessly transition legacy systems to modern platforms"
+        - name: "Modernize and streamline existing data workflows"
+        - name: "Ensure data integrity during migration process"
+      button:
+        name: "Learn more"
+        link: "/informatica-to-snowflake-migration"
+    - icon: "/assets/images/icon_etl_integration.png"
+      name: "ETL/ELT Integration"
+      listitem:  # Correct indentation here
+        - name: "Design and implement robust data integration systems"
+        - name: "Develop efficient ETL/ELT pipelines"
+        - name: "Connect and harmonize diverse data sources"
 
 # Benefits section - content-section-left layout
-benefit-automatic-conversion:
-  heading: Automatic Conversion
-  text: Accelerate your cloud migration projects by automating over 90% of the process and 100% of the validations, significantly reducing the time to completion and enhancing your return on investment. This robust automation strategy minimizes human errors and ensures a higher quality migration, facilitating a smooth and reliable transition to any cloud platform.
+benefit-legacy-migration:
+  heading: "Legacy Data Pipeline Migration"
+  text: "Specialized expertise in migrating complex legacy data pipelines to modern cloud platforms. Our DataYoga Migrator tool enables seamless cloud ETL code migration, transitioning legacy pipelines to modern stacks effortlessly."
   image:
-    src: "/assets/images/home/benefits_automation.jpg"
-    alt: "automated conversion"
+    src: "/assets/images/home/legacy_migration.jpg"
+    alt: "Legacy Data Pipeline Migration"
+  button:
+    name: "Learn More"
+    link: "/informatica-to-snowflake-migration"
 
-#content-section-right layout 
-benefit-migrate-anywhere:
-  heading: Migrate Anywhere
-  text: Convert to all leading cloud DBs, ETL, and ELT frameworks, including Snowflake, DataBricks, Bigquery, and DBT.
-  text2: Our platform ensures precise migration and enhances your system’s performance with target-specific configurations, making the most of your specific cloud database’s capabilities. This approach not only optimizes cloud efficiency and scalability but also significantly boosts your operational efficiency. Your data pipelines will be robust and ready for future technological advancements.
+# content-section-right layout  
+benefit-data-transform:
+  heading: "DataYoga Transform"
+  text: "Our open-source, real-time streaming pipeline transformation framework simplifies and accelerates data pipeline development."
+  text2: "Dramatically improve the efficiency and scalability of your data pipelines with our cutting-edge solutions."
   image:
-    src: "/assets/images/home/benefits_anywhere.jpg"
-    alt: "migration to snowflake, databricks, bigquery, dbt"
-#content-section-left layout
-benefit-minimize-risk:
-  heading: Minimize Risk
-  text: Minimize the risks associated with manual conversions. A built-in validation process is automatically created for each transformation, checking the integrity and consistency of data, ensuring any potential issues are identified and resolved early. Our preliminary assessments detect potential obstacles before the migration begins, allowing for timely and effective planning. This proactive approach not only maintains the quality and reliability of your data infrastructure but also minimizes downtime and operational disruptions.
+    src: "/assets/images/home/datayoga_transform.jpg"
+    alt: "DataYoga Transform"
+  button:
+    name: "Try it"
+    link: "/playground"
+
+# content-section-left layout
+benefit-expert-advantage:
+  heading: "The DataYoga Advantage"
+  text: "Our team consists of hands-on architects with over 25 years of experience in enterprise software and data solutions. We're dedicated to staying at the forefront of data technology, from traditional systems to modern cloud solutions."
   image:
-    src: "/assets/images/home/benefits_risk_minimize.jpg"
-    alt: minimize risk
+    src: "/assets/images/home/team_expertise.jpg"
+    alt: "DataYoga Team Expertise"
+  button:
+    name: "The team"
+    link: "/about"
 
 # Contact Area - cta-box layout
 talk-to-us:
-  heading: "Have a project in mind?"
-  description: "Reach out to us to see how we can help acheive your operational cost targets by migrating your ETL to the cloud with DataYoga"
+  heading: "Ready to accelerate your data innovation?"
+  description: "Reach out to us to see how we can help achieve your data integration and migration goals with DataYoga"
   button:
-    name: Contact Us
+    name: "Contact Us"
     link: "/contact"
 
-# How it works - content-section-center layout
-how-it-works:
-  heading: "How It Works"
-  text: "Use DataYoga to assess your current ETL's migration complexity, then migrate with ease to any leading cloud"
+# Case Study - content-section-center layout
+not-in-use:
+  heading: "Case Study Highlight"
+  text: "A leading database vendor wanted to offer real-time ingestion and synchronization from various sources but lacked the internal resources to rapidly enter the market. DataYoga developed a white-labeled data integration product, enabling the client to significantly boost sales and adoption rates."
   image:
-    src: "/assets/images/home/process.png"
-    alt: how DataYoga works
+    src: "/assets/images/home/case_study.png"
+    alt: "DataYoga Case Study"
 
-#process layout
+# Additional Services - process layout
 migration-process:
-  heading: Migration Process
-  description: our migration process
+  heading: "Additional Services"
+  description: "Comprehensive data solutions for your business"
   steps:
-    - bullet: 1.
-      title: Assessment
-      subtitle1: Comprehensive analysis for informed migration
-      text: Our assessment process identifies all data sources, data targets, lookup entities, transformations, and expression types, producing a detailed report that classifies the complexity of each pipeline.
-    - bullet: 2.
-      title: Conversion
-      subtitle1: Parse and process pipelines
-      text: Rewire passive transformations into a streamlined, linear flow and transform all blocks into our proprietary, target-agnostic format. This ensures that piplines are ready to be optimized for any cloud environment in the subsequent rendering step.
-    - bullet: 3.
-      title: Rendering
-      subtitle1: Generate artifacts in specific dialect
-      text: Artifacts are generated tailored to specific cloud targets, ensuring accurate dialect translation and optimization. This process meticulously adapts your pipelines to the unique requirements and capabilities of your chosen cloud platform.
-    - bullet: 4.
-      title: Validation
-      subtitle1: Ensuring data consistency
-      text: During this stage, all rendered artifacts are verified to function correctly and that data entities align precisely with those in the target database. Using automated comparison tools, the new pipelines are regression tested to ensure a full match with the legacy system.
-    - bullet: 5.
-      title: Acceptance
-      subtitle1: End-to-end regression testing
-      text: Rendered artifacts are executed in the cloud platform. A detailed comparison is conducted of the target data entities with those from the legacy pipelines. This final verification ensures that the migration not only aligns perfectly with operational requirements but also maintains data integrity.
+    - bullet: 1
+      title: "Data Analysis & Visualization"
+      subtitle1: "Unlock insights from your data"
+      text: "We provide advanced data analysis and visualization services to help you make informed decisions based on your data."
+    - bullet: 2
+      title: "Technical System Support"
+      subtitle1: "Ensure smooth operations"
+      text: "Our team offers comprehensive technical support to keep your data systems running efficiently and effectively."
+    - bullet: 3
+      title: "Custom Solutions"
+      subtitle1: "Tailored to your needs"
+      text: "We develop custom data solutions designed to address your specific business challenges and goals."
 ---
