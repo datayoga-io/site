@@ -4,7 +4,7 @@ layout: home
 # Slider
 slider:
   - image:
-      src: "/assets/images/datapartner.jpg"
+      src: "/assets/images/datapartner1.jpg"
       alt: "DataYoga - Accelerating Data Innovation"
     heading: "Accelerating Data Innovation"
     heading2: "Advanced data integration services and tools for software companies, integrators and enterprises"
