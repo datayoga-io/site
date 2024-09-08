@@ -15,6 +15,8 @@
       url: /informatica-to-dbt-migration/ 
     - text: Informatica to Snowflake
       url: /informatica-to-snowflake-migration
+    - text: ETL Migration
+      url: /etl-migration
 - text: About Us
   url: /about
 - text: Resources
