@@ -17,6 +17,8 @@
       url: /informatica-to-snowflake-migration
     - text: ETL Migration
       url: /etl-migration
+    - text: Migration Assessment
+      url: /informatica-migration-assessment
 - text: About Us
   url: /about
 - text: Resources
