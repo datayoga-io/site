@@ -13,7 +13,11 @@
 					<p>{{ include.content.text }}</p>
 					<p>{{ include.content.text2 }}</p>
 					{%- if include.content.button -%}
-						<a href="{{ include.content.button.link }}" class="deneb_btn">{{ include.content.button.name }}</a>
+						<a href="{{ include.content.button.link }}" 
+					 	  class="deneb_btn"
+						  {%- if include.content.button.target -%} target="{{ include.content.button.target }}"{%- endif -%}>
+							{{ include.content.button.name }}
+						</a>
 					{%- endif -%}
 				</div>
 			</div>

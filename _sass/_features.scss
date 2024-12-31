@@ -159,38 +159,45 @@
 	}
 }
 // deneb_breadcrumb
+
 .deneb_breadcrumb{
-	padding: 115px 0 145px;
-	.breadcrumb_content{
-		h1{
-			@media #{$xs}{
-				font-size: 36px;
-			}
-		}
-		ul{
-			li{
-				display: inline-block;
-				color: $theme_color;
-				text-transform: uppercase;
-				&:after{
-					content: '\f105';
-					font-weight: 900;
-					font-family: "Font Awesome 5 Free";
-					margin-left: 10px;
-					margin-right: 10px;
-				}
-				&:last-child{
-					&:after{
-						display: none;
-					}
-				}
-				a{
-					text-transform: uppercase;
-					color: $theme_color;
-				}
-			}
-		}
-	}
+    padding: 115px 0 10px; 
+    
+    @media #{$xs}{
+        padding: 90px 0 40px;  // Adjusted padding for mobile only
+    }
+    
+    .breadcrumb_content{
+        h1{
+            @media #{$xs}{
+                font-size: 24px;  // Slightly smaller than original 36px for better mobile fit
+            }
+			margin-top: 30px;
+        }
+        ul{
+            li{
+                display: inline-block;
+                color: $theme_color;
+                text-transform: uppercase;
+                &:after{
+                    content: '\f105';
+                    font-weight: 900;
+                    font-family: "Font Awesome 5 Free";
+                    margin-left: 10px;
+                    margin-right: 10px;
+                }
+                &:last-child{
+                    &:after{
+                        display: none;
+                    }
+                }
+                a{
+                    text-transform: uppercase;
+                    color: $theme_color;
+                }
+            }
+        }
+    }
 }
 
 // deneb_pagination
