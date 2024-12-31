@@ -1,18 +1,19 @@
 // deneb_banner
 .deneb_banner{
 	position: relative;
-	padding-top: 120px;
+	padding-top: 20px;
 	padding-bottom: 30px;
 	.hero{
 		.single_slider{
 			.banner_content{
 				@media #{$md}{
 					margin-top: 30px;
-					margin-bottom: 60px;
+					margin-bottom: 20px;
 				}
 				@media #{$xs}{
-					margin-top: 30px;
-					margin-bottom: 60px;
+					padding-top: 600px;
+					margin-top: 150px;
+					margin-bottom: 20px;
 				}
 				h1{
 					font-weight: 500;

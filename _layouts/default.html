@@ -75,5 +75,15 @@
 	    <script src="{{ "/assets/js/simple-jekyll-search.min.js" | absolute_url }}"></script>
 	    <!-- custom js  -->
 	    <script src="{{ "/assets/js/custom.js" | absolute_url }}"></script>
+		<!-- added so that external links are opened in a new tab-->
+		<script>
+            document.querySelectorAll('a').forEach(a => {
+                if ((a.hostname !== window.location.hostname && a.hostname !== '') || 
+				a.getAttribute('target') === "_blank") {
+                    a.target = '_blank';
+                    a.rel = 'noopener noreferrer';
+                }
+            });
+        </script>
 	</body>
 </html>

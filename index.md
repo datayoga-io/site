@@ -1,5 +1,7 @@
 ---
 layout: home
+page_header_image: "/assets/images/page_header_2.jpg"
+
 
 # Slider
 slider:
@@ -75,8 +77,10 @@ benefit-data-transform:
     src: "/assets/images/home/datayoga_transform.jpg"
     alt: "DataYoga Transform"
   button:
-    name: "Try it"
-    link: "/playground"
+    name: "Learn More"
+    #link: "/playground"
+    #target: "_blank"
+    link: "/datayoga-transform"
 
 # content-section-left layout
 benefit-expert-advantage:

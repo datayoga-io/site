@@ -97,9 +97,10 @@ body{
 }
 
 .section_title{
+	margin-top: 15px;
 	max-width: 570px;
 	margin: auto;
-	margin-bottom: 45px;
+	margin-bottom: 25px;
 	h2{
 		@media #{$xs}{
 			font-size: 32px
