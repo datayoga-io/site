@@ -9,7 +9,7 @@ slider:
   - image:
       src: "/assets/images/informatica2dbt.png"
       alt: "datayoga migrator"
-    heading: "Use DataYoga Migrator for Seamless Migration from Informatica PWC to dbt"
+    heading: "Seamless Informatica PowerCenter to dbt Migration"
     heading2: "Unlock Modern Data Transformation with DataYoga Migrator"
     text: "Modernize your data pipelines with automated conversion, preserving business logic and optimizing for cloud performance. Minimize risk and maximize ROI in your migration journey."
 

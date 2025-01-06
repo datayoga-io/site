@@ -1,8 +1,18 @@
-title: "DataYoga - ETL to cloud migration made easy"
+title: "DataYoga: Open Source ETL Framework, Informatica Migration, and Data Architecture Modernization"
+description: >- 
+  DataYoga provides a low-code open-source ETL framework, automated Informatica migration tools, 
+  and expert data architecture services. Whether you need to modernize legacy Informatica 
+  workflows, build real-time data pipelines, or optimize your data architecture, DataYoga 
+  offers powerful, independent solutions tailored to your needs.
+keywords: >-
+  Low-code ETL, Informatica to cloud, Powercenter to cloud, open source ETL,
+  data integration, Informatica migration, data pipeline framework, real-time ETL,
+  modern data stack, Informatica to Snowflake, Informatica to Databricks,
+  ETL modernization, data architecture consulting, legacy ETL migration, cloud ETL,
+  data pipeline tools, ETL framework, streaming data pipeline, low-code ETL,
+  Informatica alternatives, ETL migration tools, data integration platform,
+  modern data architecture
 email: "info@datayoga.io"
-description: >- # this means to ignore newlines until "baseurl:"
-  Eliminate the uncertinty when migrating to the cloud. With DataYoga Migrator convert Informatica mappings and workflows fast and safely.
-  Migrate your ETL to all major cloud platforms including DataBricks, Snowflake, Spark, and GCP. Informatica to Snowflake migration is now manageable. 
 baseurl: "" # the subpath of your site, e.g. /blog
 #url: "https://deneb-jekyll.tortoizthemes.com" # the base hostname & protocol for your site, e.g. http://example.com
 url: "https://datayoga.io" # the base hostname & protocol for your site, e.g. http://example.com
