@@ -7,10 +7,11 @@ page_header_image: "/assets/images/page_header_2.jpg"
 slider:
   - image:
       src: "/assets/images/datapartner1.jpg"
-      alt: "DataYoga - Accelerating Data Innovation"
+      alt: "DataYoga - Low-Code ETL and Data Modernization"
     heading: "Accelerating Data Innovation"
-    heading2: "Advanced data integration services and tools for software companies, integrators and enterprises"
-    text: "We specialize in optimizing complex data pipelines, enhancing data integration processes, and enabling seamless migration to modern cloud platforms."
+    heading2: "Low-Code ETL Framework | Informatica Migration | Data Architecture"
+    text: "Build real-time data pipelines with our low-code framework, automate Informatica 
+           to cloud migration, and transform your data architecture with expert guidance."
     button:
       name: "Discuss your challenge"
       link: "/contact"
@@ -32,30 +33,40 @@ about:
 
 # Service offerings - Boxes layout
 challenges:
-  heading: "Our Core Services"
-  text: "Comprehensive data solutions for your evolving business needs"
+  heading: "Core Solutions"
+  text: "Modern data tools and expertise for building, migrating, and modernizing data solutions"
   list:
-    - icon: "/assets/images/icon_architecture_optimization.png"
-      name: "Optimized Data Architecture"
-      listitem:
-        - name: "Design scalable, high-performance data systems"
-        - name: "Tailor architectures to your specific needs"
-        - name: "Enhance efficiency and processing capabilities"
-    - icon: "/assets/images/icon_legacy_migration.png"
-      name: "Legacy Data Pipeline Migration"
-      listitem:
-        - name: "Seamlessly transition legacy systems to modern platforms"
-        - name: "Modernize and streamline existing data workflows"
-        - name: "Ensure data integrity during migration process"
-      button:
-        name: "Learn more"
-        link: "/informatica-to-snowflake-migration"
     - icon: "/assets/images/icon_etl_integration.png"
-      name: "ETL/ELT Integration"
-      listitem:  # Correct indentation here
-        - name: "Design and implement robust data integration systems"
-        - name: "Develop efficient ETL/ELT pipelines"
-        - name: "Connect and harmonize diverse data sources"
+      name: "Low-Code ETL Framework"
+      listitem:
+        - name: "Build real-time pipelines with simple YAML"
+        - name: "Stream processing and batch capabilities"
+        - name: "Open-source flexibility and extensibility"
+      button:
+        name: "LEARN MORE"
+        link: "/datayoga-transform"
+    
+    - icon: "/assets/images/icon_legacy_migration.png"
+      name: "Informatica Migration"
+      listitem:
+        - name: "Automate PowerCenter migration to modern cloud platforms"
+        - name: "Convert to Snowflake, Databricks, or dbt"
+        - name: "Preserve complex business logic"
+      button:
+        name: "Learn More"
+        link: "/informatica-to-snowflake-migration"
+    
+    - icon: "/assets/images/icon_architecture_optimization.png"
+      name: "Data Architecture Services"
+      listitem:
+        - name: "Expert architecture consulting"
+        - name: "Modernization strategy and roadmap"
+        - name: "Implementation guidance"
+        - name: "<br>"
+        - name: "<br>"
+      button:
+        name: "Contact Us"
+        link: "/contact"
 
 # Benefits section - content-section-left layout
 benefit-legacy-migration:
@@ -68,27 +79,27 @@ benefit-legacy-migration:
     name: "Learn More"
     link: "/informatica-to-snowflake-migration"
 
-# content-section-right layout  
 benefit-data-transform:
   heading: "DataYoga Transform"
-  text: "Our open-source, real-time streaming pipeline transformation framework simplifies and accelerates data pipeline development."
-  text2: "Dramatically improve the efficiency and scalability of your data pipelines with our cutting-edge solutions."
+  text: "Build data pipelines faster with our low-code open-source framework. Define transformations using simple YAML configurations - from real-time streaming to AI-enabled data processing."
+  text2: "Perfect for modern data teams building traditional pipelines or AI-powered data flows."
   image:
     src: "/assets/images/home/datayoga_transform.jpg"
-    alt: "DataYoga Transform"
+    alt: "DataYoga Transform - Low-Code Framework"
   button:
-    name: "Learn More"
+    name: "Start Building"
+    link: "/datayoga-transform"
     #link: "/playground"
     #target: "_blank"
-    link: "/datayoga-transform"
+
 
 # content-section-left layout
 benefit-expert-advantage:
-  heading: "The DataYoga Advantage"
-  text: "Our team consists of hands-on architects with over 25 years of experience in enterprise software and data solutions. We're dedicated to staying at the forefront of data technology, from traditional systems to modern cloud solutions."
+  heading: "Expert Data Architecture Services"
+  text: "Transform your data infrastructure with expert guidance. Our architects bring over 25 years of hands-on experience in enterprise data solutions, from legacy systems to modern cloud architectures."
   image:
     src: "/assets/images/home/team_expertise.jpg"
-    alt: "DataYoga Team Expertise"
+    alt: "DataYoga Expert Architecture Services"
   button:
     name: "The team"
     link: "/about"
@@ -96,7 +107,7 @@ benefit-expert-advantage:
 # Contact Area - cta-box layout
 talk-to-us:
   heading: "Ready to accelerate your data innovation?"
-  description: "Reach out to us to see how we can help achieve your data integration and migration goals with DataYoga"
+  description: "Whether you need to build modern pipelines, migrate from Informatica PowerCenter, or modernize your data architecture, let's discuss your challenges and help you find the right solution."
   button:
     name: "Contact Us"
     link: "/contact"
